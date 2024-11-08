@@ -4,6 +4,9 @@ public class Main {
     public static void main(String[] args) {
         
         Animal lion =new Lion("Mufasa", 50);
+        Animal tiger = new Tiger("Raftar", 65);
+
+        ((Tiger) tiger).details();
     }
 }
 
