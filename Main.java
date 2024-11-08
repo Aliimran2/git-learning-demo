@@ -2,9 +2,22 @@
 public class Main {
 
     public static void main(String[] args) {
-        int age = 36;
-        String name = "M Imran";
-
-        System.out.println(name +" "+age);
+        
+        Animal lion =new Lion("Mufasa", 50);
     }
+}
+
+class Animal {
+
+    public Animal(String name, int speed){
+        System.out.println("Hi! I am "+name+" my speed is "+speed +"km");
+    }
+    
+}
+
+class Lion extends Animal {
+    public Lion(String name, int speed){
+        super(name, speed);
+    }
+    
 }
