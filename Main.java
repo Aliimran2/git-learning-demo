@@ -24,13 +24,3 @@ class Lion extends Animal {
     }
     
 }
-
-class Tiger extends Animal {
-    public Tiger(String name, int speed){
-        super(name, speed);
-    }
-
-    public void details() {
-        System.out.println("hello this is method ");
-    }
-}
