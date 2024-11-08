@@ -4,6 +4,7 @@ public class Main {
     public static void main(String[] args) {
         
         Animal lion =new Lion("Mufasa", 50);
+    
     }
 }
 
@@ -18,6 +19,10 @@ class Animal {
 class Lion extends Animal {
     public Lion(String name, int speed){
         super(name, speed);
+    }
+
+    public void m1() {
+        System.out.println("In the lion class");
     }
     
 }
